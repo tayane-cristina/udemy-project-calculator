@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+h1{
+    font-size: 5rem;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dosis', sans-serif;
+    background-color: white;
+}
+
+main{
+    margin-top: 2rem;
+}
+
+td{
+    background-color: rgba(112, 122, 122, 0.301);
+    width: 7.5rem;
+    height: 6rem;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+td:hover {
+    background-color: rgba(64, 66, 66, 0.534);
+}
+
+.display{
+    background-color: rgba(136, 135, 135, 0.253);
+    text-align: end;
+    width: 31.5rem;
+    height: 4.5rem;
+    font-size: 40px;    
+}
+
+table{
+    border-collapse:separate;
+}
+
+.result:hover{
+    background-color: rgb(23, 103, 194);
+}
+
+.clean-all{
+    background-color: rgba(209, 11, 11, 0.884);
+    color: white;
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-weight: bold;
+}
+.clean-all:hover{
+    background-color: rgba(155, 12, 12, 0.884);
+}
+
+.card-num, .del{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+.result{
+    background-color: rgb(32, 123, 226);
+    color: white;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;  
+}
